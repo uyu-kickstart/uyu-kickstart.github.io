@@ -17,9 +17,16 @@ body {
 
 .text {
   width: 100%;
-  background: #fff;
+  color: #fff;
   font-family: "Poiret One", cursive;
   font-size: 2em;
   font-weight: bold;
   line-height: 1.5em;
+
+  transition: color 1s ease 0s, background-color 1s ease 0s;
+}
+
+.text:hover {
+  color: #000;
+  background: #fff;
 }
