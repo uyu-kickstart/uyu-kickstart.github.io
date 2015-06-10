@@ -14,6 +14,10 @@ body {
   height: auto;
   max-width: 100%;
   padding-top: 2.5em;
+
+  -webkit-filter: drop-shadow(#000 2px -2px 5px);
+  -moz-filter: drop-shadow(#000 2px -2px 5px);
+  filter: drop-shadow(#000 2px -2px 5px);
 }
 
 .text {
